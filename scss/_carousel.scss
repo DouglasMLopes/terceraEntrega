@@ -1,0 +1,24 @@
+.carousel-inner{
+    div{
+        img{
+            object-fit: cover;
+            width: auto;
+            height: 550px;
+        }
+    }
+}
+
+.carousel-item{
+    transition: transform 2.6s ease-in-out; 
+}
+
+.carousel-fade{
+    .active{
+        .carousel-item-start{
+            transition: opacity 0s 2.6s;
+        }
+        .carousel-item-end{
+            transition: opacity 0s 2.6s;
+        }
+    }
+}

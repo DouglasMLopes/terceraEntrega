@@ -1,0 +1,38 @@
+.nav-container{
+    background-color: $bg-secundary-color;
+        div{
+            width: 100fw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            transition:all 0.3s;
+            &:hover{
+                transform: scale(1.1); 
+            }    
+        }
+        ul{
+            width: 100%;
+            list-style: none;
+            font-size: $font-sm;
+            line-height: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+                li:hover{
+                    transform: scale(1.1);
+                }
+                li a{
+                    color:$text-secundary-color;
+                    text-decoration: none;
+                    margin: 20px;
+                    &:hover{
+                        color: $hover-color;
+                    }              
+                }
+        }
+}

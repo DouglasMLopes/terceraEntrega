@@ -1,0 +1,78 @@
+*{
+    font-family: $family-name-generic;
+}
+
+html{
+    font-size: $html-font-size;
+}
+
+body{
+    background-color: $bg-primary-color;
+}
+
+h1{
+    font-weight: $fw-bold;
+    font-size: $font-lg;
+    color: $text-secundary-color;
+}
+
+h2{
+    font-weight: $fw-bold;
+    font-size: $font-md;
+    color: $text-secundary-color; 
+}
+
+h3{
+    font-weight: $fw-regular;
+    font-size: $font-sm;
+    color: $text-secundary-color; 
+}
+
+h4{
+    font-weight: $fw-light;
+    font-size: $font-sm;
+    color: $text-secundary-color; 
+}
+
+p{
+    font-size: $font-xsm;
+}
+
+.brands-container{
+    background-color:$bg-secundary-color;
+    width: 100fw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    img{
+        height: auto;
+        width: 128px;
+        margin: 10px;
+    }
+}
+
+.footer-container{
+    width: 100fw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+    div{
+        svg{
+            margin: 10px;
+            height: auto;
+            width: 20px;
+            fill: $text-secundary-color;
+        }
+    }
+    p{
+        color: $text-secundary-color;
+        margin: 5px;
+    }
+}
