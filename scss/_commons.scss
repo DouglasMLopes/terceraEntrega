@@ -113,19 +113,3 @@ p{
     }
 }
 
-@keyframes go-back{
-    from {
-        transform: translateX(600px);
-      }
-      to {
-        transform: translateX(0);
-      }
-}
-@keyframes back-go{
-    from {
-        transform: translateX(-600px);
-      }
-      to {
-        transform: translateX(0);
-      }
-}

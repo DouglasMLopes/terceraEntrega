@@ -1,0 +1,33 @@
+@keyframes go-back{
+    from {
+        transform: translateX(600px);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+@keyframes back-go{
+    from {
+        transform: translateX(-600px);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+
+@keyframes up-down{
+    from {
+        transform: translatey(250px);
+      }
+      to {
+        transform: translatey(0);
+      }
+}
+@keyframes down-up{
+    from {
+        transform: translatey(-250px);
+      }
+      to {
+        transform: translatey(0);
+      }
+}

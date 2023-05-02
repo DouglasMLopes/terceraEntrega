@@ -83,6 +83,27 @@
                 height: auto;                
             }
         }
+    } 
+}
+
+@media (width > 991px){
+
+    .card-config-promo-hair{
+        animation: up-down 3s;
+    }
+
+    .card-config-promo-nails{
+        animation: up-down  3s;
+    }
+
+    .card-config-promo-beauty{       
+        margin-top: 180px;
+        animation: down-up 3s;       
+    }
+
+    .card-config-promo-cejas{       
+        margin-top: 180px;
+        animation: down-up 3s;
     }
 }
 
@@ -167,6 +188,14 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .card-config-promo-beauty{       
+        margin-top: 180px;
+    }
+
+    .card-config-promo-cejas{       
+        margin-top: 180px;
     }
 }
 

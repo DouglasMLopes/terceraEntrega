@@ -88,3 +88,28 @@
         }
      }    
 }
+
+.card-config-promo-hair{
+    @extend .card-config;
+    height: auto;
+    border: $border-style;
+    img{
+        height: 100%;
+        width: 100%; 
+    }
+    p{
+        font-size: 1.5rem;
+    }    
+}
+
+.card-config-promo-beauty{
+    @extend .card-config-promo-hair;
+}
+
+.card-config-promo-nails{
+    @extend .card-config-promo-hair;
+}
+
+.card-config-promo-cejas{
+    @extend .card-config-promo-hair;    
+}
